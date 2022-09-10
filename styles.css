@@ -25,6 +25,10 @@ nav{
     width: 100px;
     cursor: pointer;
 }
+.logo :hover{
+    color: orange;
+    
+}
 
 nav ul li {
     display: inline-block;
@@ -123,8 +127,6 @@ span:hover{
 .social{
     margin-left: 8%;
     margin-top: 100px;
-    transition: bottom 0.5s;
-    transform: translateX(0%);
 }
 
 .social a{
@@ -132,8 +134,11 @@ span:hover{
     color: #212121;
     margin-right: 20px;
 }
+.social a {
+    transition: all 0.4s;
+  }
 
 .social a:hover{
     color: orange;
-    bottom: 60px;
+
 }
