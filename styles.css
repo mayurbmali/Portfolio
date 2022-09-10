@@ -39,12 +39,14 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: red;
+    color: orange;
 }
 
 .detel{
     margin-left: 8%;
     margin-top: 15%;
+    transition: bottom 0.5s;
+    transform: translateX(0%);
 }
 
 .detel h1{
@@ -59,7 +61,7 @@ span{
 }
 
 .detel p{
-    color: #555;
+    color: rgb(82, 29, 96);
     line-height: 22px;
 }
 
@@ -73,12 +75,24 @@ span{
     margin: 30px 0;
     border-radius: 5px;
 }
+span:hover{
+    color: rgb(0, 0, 0);
+}
+.detel h1:hover{
+    color: orange;
+    bottom: 60px;
+}
+.detel a:hover{
+    color: orange;
+    bottom: 60px;
+}
+
 
 .images{
-    width: 45%;
-    height: 80%;
+    width: 35%;
+    height: 75%;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     right: 100px;
 }
 
@@ -90,18 +104,27 @@ span{
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
+.images img.profile{
+    height: 85%;
+    width: 75%;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 30px;
+}
 
 .images:hover .shape{
-    bottom: 40px;
+    bottom: 60px;
 }
 
 .images:hover .profile{
-    left: 45%;
+    left: 60%;
 }
 
 .social{
     margin-left: 8%;
     margin-top: 100px;
+    transition: bottom 0.5s;
+    transform: translateX(0%);
 }
 
 .social a{
@@ -112,4 +135,5 @@ span{
 
 .social a:hover{
     color: orange;
+    bottom: 60px;
 }
