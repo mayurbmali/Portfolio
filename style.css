@@ -654,6 +654,11 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .services .serv-content .card .text{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 17px 0 5px 0;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
