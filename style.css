@@ -175,7 +175,7 @@ section .title::after{
 }
 .home .max-width{
   width: 100%;
-  display: flex;
+  display: inline-block;
 }
 .home .max-width .row{
   margin-right: 0;
@@ -200,9 +200,11 @@ section .title::after{
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+    color: crimson;
 }
 .home .home-content .text-3 span{
     color: crimson;
+    font-size: larger;
     font-weight: 500;
 }
 .home .home-content a{
@@ -423,11 +425,31 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
-    transition: all 0.3s ease;
+    border: 3px solid crimson;
+    transition: all 0.5s ease;
 }
 .teams .carousel .card:hover img{
-    border-color: #fff;
+    border-color: white;
+}
+.button1{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 28px;
+    margin-top: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-weight: 300;
+}
+.button1:hover{
+    color: crimson;
+    background: rgb(174, 209, 213);
+    filter: drop-shadow(0px 1px 10px white);
+    /* filter: blur(0.5px); */
 }
 .owl-dots{
     text-align: center;
@@ -560,7 +582,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
 
 /* responsive media query start */
 @media (max-width: 1104px) {
