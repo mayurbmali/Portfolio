@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -180,13 +180,22 @@ section .title::after{
 .home .max-width .row{
   margin-right: 0;
 }
-.home .home-content .text-1{
-    font-size: 27px;
+
+.home .home-content .text0{
+    font-size: 18px;
+    color: rgb(80, 72, 72);
+    margin-bottom: 40px;
 }
-.home .home-content .text-2{
+
+.home .home-content .text1{
+    font-size: 27px;
+    color: crimson;
+}
+.home .home-content .text2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    color: crimson;
 }
 .home .home-content .text-3{
     font-size: 40px;
