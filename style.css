@@ -392,7 +392,7 @@ section .title::after{
 
 /* skills section styling */
 .skills .title::after{
-    content: "From Udemy";
+    content: "";
 }
 .skills .carousel .card{
     background: #222;
